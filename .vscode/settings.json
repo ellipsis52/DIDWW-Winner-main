@@ -10,5 +10,6 @@
         "./didww_encrypt",
         "-p",
         "*test.py"
-    ]
+    ],
+    "activestate.promptRuntimeCreation": false
 }
