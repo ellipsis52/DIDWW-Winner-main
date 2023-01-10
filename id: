@@ -1,7 +1,7 @@
 (base) iMac-de-Guido:webtechnicom-stripe-codespace-ellipsis52-silver-dollop-p
 q5j79764g43w5w webtechnicom$ ``python
 from didww_encrypt import Encrypt, MODE_PRODUCTION
-
+25257408-60da24e4-ca52-48ce-8cf3-2afa7b9a1c55
 
 with open("doc.pdf", mode="rb") as f:
     data = f.read()
