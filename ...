@@ -61,4 +61,4 @@ pk_live_51AXJ0vFCL1ycm3RcEzn0xodUBXt9InPZHaW6ZqrHGiXPUPsmWGT9U27OtFMn7gxFtaemBMB
 Traceback (most recent call last):
   File "<stdin>", line 1, in <module>
 NameError: name 'pk_live_51AXJ0vFCL1ycm3RcEzn0xodUBXt9InPZHaW6ZqrHGiXPUPsmWGT9U27OtFMn7gxFtaemBMBfXUmKnsoWUETNefs100MaPY8r0N' is not defined
->>> 
+>>> $ python -m ensurepip --upgrade
