@@ -2,7 +2,7 @@
   "project" : {
     "id" : "webtechnicom-1000071516-spn",
     "name" : "webtechnicom-1000071516-spn",
-    "folder" : "/"
+    "folder" : "/jaicp"
   },
   "settings" : {
     "language" : "en",
@@ -52,6 +52,18 @@
     "enabled" : false
   }, {
     "name" : "duckling.distance",
+    "version" : "v2",
+    "enabled" : false
+  }, {
+    "name" : "duckling.quantity",
+    "version" : "v2",
+    "enabled" : false
+  }, {
+    "name" : "duckling.temperature",
+    "version" : "v2",
+    "enabled" : false
+  }, {
+    "name" : "duckling.volume",
     "version" : "v2",
     "enabled" : false
   }, {
