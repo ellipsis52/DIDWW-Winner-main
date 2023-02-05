@@ -12,7 +12,653 @@
     "shared" : false
   },
   "intents" : [ {
+    "path" : "/New intent 1",
+    "enabled" : true,
+    "shared" : false,
+    "classificationRules" : {
+      "refs" : [ ]
+    },
+    "priority" : 0
+  }, {
     "path" : "/New intent",
+    "enabled" : true,
+    "shared" : false,
+    "classificationRules" : {
+      "refs" : [ ]
+    },
+    "priority" : 0
+  }, {
+    "path" : "/KnowledgeBase/FAQ.Banking/Root/Where to find bank account details?",
+    "enabled" : true,
+    "shared" : false,
+    "phrases" : [ {
+      "text" : "I need my bank account details"
+    }, {
+      "text" : "where to find credit card particulars?"
+    }, {
+      "text" : "check bank card information"
+    }, {
+      "text" : "Where to find bank account details?"
+    }, {
+      "text" : "where to look for bank card details"
+    }, {
+      "text" : "I need my debit card information"
+    } ],
+    "classificationRules" : {
+      "refs" : [ ]
+    },
+    "patterns" : [ ],
+    "priority" : 0
+  }, {
+    "path" : "/KnowledgeBase/FAQ.Banking/Root/How to get money back from a blocked card?",
+    "enabled" : true,
+    "shared" : false,
+    "phrases" : [ {
+      "text" : "How to get money back from a blocked card?"
+    }, {
+      "text" : "can I withdraw my savings from a card that was blocked?"
+    }, {
+      "text" : "siphon money off a blocked bank account"
+    }, {
+      "text" : "I need to get money but the card is blocked"
+    }, {
+      "text" : "how to access money on a blocked account"
+    }, {
+      "text" : "I need to withdraw funds from a blocked card"
+    } ],
+    "classificationRules" : {
+      "refs" : [ ]
+    },
+    "patterns" : [ ],
+    "priority" : 0
+  }, {
+    "path" : "/KnowledgeBase/FAQ.Banking/Root/Where to report a change of card details?",
+    "enabled" : true,
+    "shared" : false,
+    "phrases" : [ {
+      "text" : "Where to report a change of card details?"
+    }, {
+      "text" : "my card details have changed"
+    }, {
+      "text" : "how to update bank account details"
+    }, {
+      "text" : "whom to notify about a change in card details"
+    }, {
+      "text" : "where to submit new account details"
+    }, {
+      "text" : "I need to inform the bank about changes in bank card particulars"
+    } ],
+    "classificationRules" : {
+      "refs" : [ ]
+    },
+    "patterns" : [ ],
+    "priority" : 0
+  }, {
+    "path" : "/KnowledgeBase/FAQ.Banking/Root/How to update personal data?",
+    "enabled" : true,
+    "shared" : false,
+    "phrases" : [ {
+      "text" : "How to update personal data?"
+    }, {
+      "text" : "my personal details have changed"
+    }, {
+      "text" : "I need to submit new personal data"
+    }, {
+      "text" : "where to register personal data changes"
+    }, {
+      "text" : "I need to update personal information"
+    }, {
+      "text" : "where to send new personal info"
+    } ],
+    "classificationRules" : {
+      "refs" : [ ]
+    },
+    "patterns" : [ ],
+    "priority" : 0
+  }, {
+    "path" : "/KnowledgeBase/FAQ.Banking/Root/Personal information agreement",
+    "enabled" : true,
+    "shared" : false,
+    "phrases" : [ {
+      "text" : "why do I have to sign a personal data processing agreement"
+    }, {
+      "text" : "what's the point of a personal data processing agreement"
+    }, {
+      "text" : "what is a personal data processing agreement"
+    }, {
+      "text" : "is a personal data agreement necessary"
+    }, {
+      "text" : "Personal information agreement"
+    } ],
+    "classificationRules" : {
+      "refs" : [ ]
+    },
+    "patterns" : [ ],
+    "priority" : 0
+  }, {
+    "path" : "/KnowledgeBase/FAQ.Banking/Root/Is my bank card ready?",
+    "enabled" : true,
+    "shared" : false,
+    "phrases" : [ {
+      "text" : "Is my bank card ready?"
+    }, {
+      "text" : "when can I pick up my credit card"
+    }, {
+      "text" : "can I come to receive my debit card"
+    }, {
+      "text" : "have you finished making my card"
+    }, {
+      "text" : "when will my debit card arrive"
+    }, {
+      "text" : "I want to come and grab my credit card"
+    } ],
+    "classificationRules" : {
+      "refs" : [ ]
+    },
+    "patterns" : [ ],
+    "priority" : 0
+  }, {
+    "path" : "/KnowledgeBase/FAQ.Banking/Root/How to open a bank account?",
+    "enabled" : true,
+    "shared" : false,
+    "phrases" : [ {
+      "text" : "How to open a bank account?"
+    }, {
+      "text" : "I need a credit card"
+    }, {
+      "text" : "what do I need to do to open a card"
+    }, {
+      "text" : "I want to apply for a debit card"
+    }, {
+      "text" : "launch a card"
+    }, {
+      "text" : "I want to create an account"
+    } ],
+    "classificationRules" : {
+      "refs" : [ ]
+    },
+    "patterns" : [ ],
+    "priority" : 0
+  }, {
+    "path" : "/KnowledgeBase/FAQ.Banking/Root/Why is my payment refused?",
+    "enabled" : true,
+    "shared" : false,
+    "phrases" : [ {
+      "text" : "Why is my payment refused?"
+    }, {
+      "text" : "transaction declined"
+    }, {
+      "text" : "I can't make a payment"
+    }, {
+      "text" : "what to do if an operation is declined"
+    }, {
+      "text" : "why is an operation refused"
+    }, {
+      "text" : "money transfer declined"
+    } ],
+    "classificationRules" : {
+      "refs" : [ ]
+    },
+    "patterns" : [ ],
+    "priority" : 0
+  }, {
+    "path" : "/KnowledgeBase/FAQ.Banking/Root/How to get a card blocked?",
+    "enabled" : true,
+    "shared" : false,
+    "phrases" : [ {
+      "text" : "How to get a card blocked?"
+    }, {
+      "text" : "I want to block a card that was lost"
+    }, {
+      "text" : "block a stolen card"
+    }, {
+      "text" : "please block my debit card!"
+    }, {
+      "text" : "can I have a card blocked it got stolen"
+    }, {
+      "text" : "I lost my credit card can you block it"
+    } ],
+    "classificationRules" : {
+      "refs" : [ ]
+    },
+    "patterns" : [ ],
+    "priority" : 0
+  }, {
+    "path" : "/KnowledgeBase/FAQ.Banking/Root/Was it a bank employee that called me?",
+    "enabled" : true,
+    "shared" : false,
+    "phrases" : [ {
+      "text" : "Was it a bank employee that called me?"
+    }, {
+      "text" : "how to check that I talked to a bank worker"
+    }, {
+      "text" : "make sure that the call I received was form a bank branch"
+    }, {
+      "text" : "how do I know these are not scammers calling?"
+    }, {
+      "text" : "how to make sure I got a call from a bank employee"
+    }, {
+      "text" : "what if a call from the bank is a scam"
+    }, {
+      "text" : "did I talk to a bank official on the phone"
+    } ],
+    "classificationRules" : {
+      "refs" : [ ]
+    },
+    "patterns" : [ ],
+    "priority" : 0
+  }, {
+    "path" : "/KnowledgeBase/FAQ.Banking/Root/Why is my card blocked?",
+    "enabled" : true,
+    "shared" : false,
+    "phrases" : [ {
+      "text" : "Why is my card blocked?"
+    }, {
+      "text" : "for what reason did you block my credit card"
+    }, {
+      "text" : "can't use my card because it's blocked"
+    }, {
+      "text" : "what was the reason for the block of my credit card"
+    }, {
+      "text" : "why did the bank block my card"
+    }, {
+      "text" : "my credit card is blocked"
+    } ],
+    "classificationRules" : {
+      "refs" : [ ]
+    },
+    "patterns" : [ ],
+    "priority" : 0
+  }, {
+    "path" : "/KnowledgeBase/FAQ.Banking/Root/Why is my balance negative?",
+    "enabled" : true,
+    "shared" : false,
+    "phrases" : [ {
+      "text" : "Why is my balance negative?"
+    }, {
+      "text" : "why is my fund balance below zero"
+    }, {
+      "text" : "the balance on my bank account is negative"
+    }, {
+      "text" : "there is a minus sign next to credit card balance"
+    }, {
+      "text" : "why do I have a negative balance on my credit card"
+    }, {
+      "text" : "my account balance is negative what do I do"
+    } ],
+    "classificationRules" : {
+      "refs" : [ ]
+    },
+    "patterns" : [ ],
+    "priority" : 0
+  }, {
+    "path" : "/KnowledgeBase/FAQ.Banking/Root/How to check balance?",
+    "enabled" : true,
+    "shared" : false,
+    "phrases" : [ {
+      "text" : "How to check balance?"
+    }, {
+      "text" : "I need to know my account balance"
+    }, {
+      "text" : "balance"
+    }, {
+      "text" : "how do I know my credit card balance"
+    }, {
+      "text" : "how much left on my bank account"
+    }, {
+      "text" : "what are the available funds on my credit card"
+    } ],
+    "classificationRules" : {
+      "refs" : [ ]
+    },
+    "patterns" : [ ],
+    "priority" : 0
+  }, {
+    "path" : "/KnowledgeBase/FAQ.Banking/Root/Where can I check my transactions history?",
+    "enabled" : true,
+    "shared" : false,
+    "phrases" : [ {
+      "text" : "Where can I check my transactions history?"
+    }, {
+      "text" : "I want to see a breakdown of the financial operations"
+    }, {
+      "text" : "bank statement"
+    }, {
+      "text" : " can I see a list of my transactions"
+    }, {
+      "text" : "view transactions history"
+    }, {
+      "text" : "I want to download a bank statement"
+    } ],
+    "classificationRules" : {
+      "refs" : [ ]
+    },
+    "patterns" : [ ],
+    "priority" : 0
+  }, {
+    "path" : "/KnowledgeBase/FAQ.Banking/Root/Can I pay a loan early?",
+    "enabled" : true,
+    "shared" : false,
+    "phrases" : [ {
+      "text" : "I want to pay a loan early"
+    }, {
+      "text" : "pay full loan in advance"
+    }, {
+      "text" : "can I pay my credit card bill before time"
+    }, {
+      "text" : "Is early payment of loans possible?"
+    }, {
+      "text" : "repay credit beforehand"
+    }, {
+      "text" : "I'd like to pay the loan prematurely"
+    }, {
+      "text" : "Can I pay a loan early?"
+    } ],
+    "classificationRules" : {
+      "refs" : [ ]
+    },
+    "patterns" : [ ],
+    "priority" : 0
+  }, {
+    "path" : "/KnowledgeBase/FAQ.Banking/Root/How to activate a card?",
+    "enabled" : true,
+    "shared" : false,
+    "phrases" : [ {
+      "text" : "How to activate a card?"
+    }, {
+      "text" : "could you please help me with card activation"
+    }, {
+      "text" : "I cannot activate my debit card"
+    }, {
+      "text" : "how to start using the card"
+    }, {
+      "text" : "can you help with the activation of my credit card"
+    }, {
+      "text" : "how to begin using a card"
+    } ],
+    "classificationRules" : {
+      "refs" : [ ]
+    },
+    "patterns" : [ ],
+    "priority" : 0
+  }, {
+    "path" : "/KnowledgeBase/FAQ.Banking/Root/How to calculate the loan amount?",
+    "enabled" : true,
+    "shared" : false,
+    "phrases" : [ {
+      "text" : "How to calculate the loan amount?"
+    }, {
+      "text" : "do you have a credit amount calculator"
+    }, {
+      "text" : "full loan amount"
+    }, {
+      "text" : "how big is the total credit sum"
+    }, {
+      "text" : "I need to check the total loan amount"
+    }, {
+      "text" : "calculate full loan sum"
+    } ],
+    "classificationRules" : {
+      "refs" : [ ]
+    },
+    "patterns" : [ ],
+    "priority" : 0
+  }, {
+    "path" : "/KnowledgeBase/FAQ.Banking/Root/How to get a card unblocked?",
+    "enabled" : true,
+    "shared" : false,
+    "phrases" : [ {
+      "text" : "I want to use a card that has been blocked again"
+    }, {
+      "text" : "How to get a card unblocked?"
+    }, {
+      "text" : "can you please unblock my card"
+    }, {
+      "text" : "how to start using a blocked card again"
+    }, {
+      "text" : "can I have my card unblocked please"
+    }, {
+      "text" : "unblock credit card"
+    } ],
+    "classificationRules" : {
+      "refs" : [ ]
+    },
+    "patterns" : [ ],
+    "priority" : 0
+  }, {
+    "path" : "/KnowledgeBase/FAQ.Banking/Root/How to apply for a loan?",
+    "enabled" : true,
+    "shared" : false,
+    "phrases" : [ {
+      "text" : "How to apply for a loan?"
+    }, {
+      "text" : "I want to take out a loan"
+    }, {
+      "text" : "establish a loan"
+    }, {
+      "text" : "how to loan money from the bank"
+    }, {
+      "text" : "Submit loan application"
+    }, {
+      "text" : "can I borrow money from the bank"
+    } ],
+    "classificationRules" : {
+      "refs" : [ ]
+    },
+    "patterns" : [ ],
+    "priority" : 0
+  }, {
+    "path" : "/KnowledgeBase/FAQ.Banking/Root/How to get a replacement card?",
+    "enabled" : true,
+    "shared" : false,
+    "phrases" : [ {
+      "text" : "How to get a replacement card?"
+    }, {
+      "text" : "I need to have an old debit card replaced"
+    }, {
+      "text" : "get a new card"
+    }, {
+      "text" : "card replacement"
+    }, {
+      "text" : "I need to replace a bank card"
+    }, {
+      "text" : "how to apply for a replacement card"
+    } ],
+    "classificationRules" : {
+      "refs" : [ ]
+    },
+    "patterns" : [ ],
+    "priority" : 0
+  }, {
+    "path" : "/KnowledgeBase/FAQ.Banking/Root/How to pay a phone bill?",
+    "enabled" : true,
+    "shared" : false,
+    "phrases" : [ {
+      "text" : "phone bill payment"
+    }, {
+      "text" : "How to pay a phone bill?"
+    }, {
+      "text" : "can I pay for phone through your bank?"
+    }, {
+      "text" : "pay for phone calls with a card"
+    }, {
+      "text" : "pay for mobile telephony"
+    }, {
+      "text" : "can I use your card to pay for phone"
+    } ],
+    "classificationRules" : {
+      "refs" : [ ]
+    },
+    "patterns" : [ ],
+    "priority" : 0
+  }, {
+    "path" : "/KnowledgeBase/FAQ.Banking/Root/How to reverse a transaction?",
+    "enabled" : true,
+    "shared" : false,
+    "phrases" : [ {
+      "text" : "I want the transferred money back"
+    }, {
+      "text" : "How to reverse a transaction?"
+    }, {
+      "text" : "can I undo a payment"
+    }, {
+      "text" : "get money back on my account"
+    }, {
+      "text" : "I need to undo an operation"
+    }, {
+      "text" : "can I transfer the money back to my account"
+    } ],
+    "classificationRules" : {
+      "refs" : [ ]
+    },
+    "patterns" : [ ],
+    "priority" : 0
+  }, {
+    "path" : "/KnowledgeBase/FAQ.Banking/Root/What is cashback?",
+    "enabled" : true,
+    "shared" : false,
+    "phrases" : [ {
+      "text" : "I want to get cashback from my credit card"
+    }, {
+      "text" : "What is cashback?"
+    }, {
+      "text" : "how does a cashback card work"
+    }, {
+      "text" : "how does cashback accrue"
+    }, {
+      "text" : "how does your cashback system benefit me"
+    }, {
+      "text" : "receive cashback"
+    }, {
+      "text" : "how to use a cashback card"
+    } ],
+    "classificationRules" : {
+      "refs" : [ ]
+    },
+    "patterns" : [ ],
+    "priority" : 0
+  }, {
+    "path" : "/KnowledgeBase/FAQ.Banking/Root/What is code word?",
+    "enabled" : true,
+    "shared" : false,
+    "phrases" : [ {
+      "text" : "what is the point of a code word"
+    }, {
+      "text" : "why does the bank need a code word for my account"
+    }, {
+      "text" : "What is code word?"
+    }, {
+      "text" : "why do you demand a code word"
+    }, {
+      "text" : "what's a code word necessary for"
+    }, {
+      "text" : "code word"
+    } ],
+    "classificationRules" : {
+      "refs" : [ ]
+    },
+    "patterns" : [ ],
+    "priority" : 0
+  }, {
+    "path" : "/KnowledgeBase/FAQ.Banking/Root/What to do if you forgot your PIN?",
+    "enabled" : true,
+    "shared" : false,
+    "phrases" : [ {
+      "text" : "What to do if you forgot your PIN?"
+    }, {
+      "text" : "I lost my bank card PIN code"
+    }, {
+      "text" : "can't remember my PIN"
+    }, {
+      "text" : "what do I do if I lost my card password"
+    }, {
+      "text" : "forgot the code for my card"
+    }, {
+      "text" : "I think I forgot my credit card password"
+    } ],
+    "classificationRules" : {
+      "refs" : [ ]
+    },
+    "patterns" : [ ],
+    "priority" : 0
+  }, {
+    "path" : "/KnowledgeBase/FAQ.Banking/Root/When is cashback received?",
+    "enabled" : true,
+    "shared" : false,
+    "phrases" : [ {
+      "text" : "When is cashback received?"
+    }, {
+      "text" : "how long does it take for the cashback to show up"
+    }, {
+      "text" : "when will I get the cash back on my credit card"
+    }, {
+      "text" : "when will I receive cashback money"
+    }, {
+      "text" : "when does cash back arrive"
+    }, {
+      "text" : "when will cashback show up"
+    } ],
+    "classificationRules" : {
+      "refs" : [ ]
+    },
+    "patterns" : [ ],
+    "priority" : 0
+  }, {
+    "path" : "/KnowledgeBase/FAQ.Banking/Root/When will a transaction to another bank be confirmed?",
+    "enabled" : true,
+    "shared" : false,
+    "phrases" : [ {
+      "text" : "When will a transaction to another bank be confirmed?"
+    }, {
+      "text" : "confirm inter-bank transaction"
+    }, {
+      "text" : "how long does it take for an inter-bank transaction to be checked?"
+    }, {
+      "text" : "how long before an inter-bank transaction is confirmed"
+    }, {
+      "text" : "when will I see confirmation of an operation with another bank?"
+    }, {
+      "text" : "is transaction to a different bank confirmed"
+    } ],
+    "classificationRules" : {
+      "refs" : [ ]
+    },
+    "patterns" : [ ],
+    "priority" : 0
+  }, {
+    "path" : "/KnowledgeBase/FAQ.Banking/Root/When will an inner transaction be confirmed?",
+    "enabled" : true,
+    "shared" : false,
+    "phrases" : [ {
+      "text" : "When will an inner transaction be confirmed?"
+    }, {
+      "text" : "when will you confirm a transaction to a card of the same bank"
+    }, {
+      "text" : "how long before a transaction within this bank is checked"
+    }, {
+      "text" : "confirm inner transaction"
+    }, {
+      "text" : "when will I see confirmation of an operation within this bank"
+    }, {
+      "text" : "how long does it take to check an inner transaction"
+    }, {
+      "text" : "when is a transaction within this bank confirmed"
+    } ],
+    "classificationRules" : {
+      "refs" : [ ]
+    },
+    "patterns" : [ ],
+    "priority" : 0
+  }, {
+    "path" : "/KnowledgeBase/FAQ.Banking",
+    "enabled" : true,
+    "shared" : false,
+    "classificationRules" : {
+      "refs" : [ ]
+    },
+    "priority" : 0
+  }, {
+    "path" : "/KnowledgeBase/FAQ.Banking/Root/New intent",
     "enabled" : true,
     "shared" : false,
     "classificationRules" : {
@@ -35,8 +681,23 @@
       "hidden" : false
     },
     "records" : [ ]
+  }, {
+    "entity" : {
+      "name" : "New_entity",
+      "enabled" : true,
+      "shared" : false,
+      "type" : "annotation",
+      "priority" : 1,
+      "noSpelling" : true,
+      "noMorph" : false,
+      "phoneticSearch" : false,
+      "fuzzySearch" : false,
+      "client" : false,
+      "hidden" : false
+    },
+    "records" : [ ]
   } ],
-  "enabledSystemEntities" : [ "duckling.number", "duckling.time", "duckling.duration", "duckling.phone-number", "duckling.email", "duckling.url" ],
+  "enabledSystemEntities" : [ "duckling.number", "duckling.amount-of-money", "duckling.time", "duckling.duration", "duckling.phone-number", "duckling.email", "duckling.url" ],
   "spellerDictionary" : [ ],
   "systemEntities" : [ {
     "name" : "duckling.number",
@@ -49,7 +710,7 @@
   }, {
     "name" : "duckling.amount-of-money",
     "version" : "v2",
-    "enabled" : false
+    "enabled" : true
   }, {
     "name" : "duckling.distance",
     "version" : "v2",
@@ -99,5 +760,95 @@
     "version" : "v2",
     "enabled" : false
   } ],
-  "faq" : [ ]
+  "faq" : [ {
+    "intentPath" : "/KnowledgeBase/FAQ.Banking/Root/Where to find bank account details?",
+    "replies" : [ ]
+  }, {
+    "intentPath" : "/KnowledgeBase/FAQ.Banking/Root/How to get money back from a blocked card?",
+    "replies" : [ ]
+  }, {
+    "intentPath" : "/KnowledgeBase/FAQ.Banking/Root/Where to report a change of card details?",
+    "replies" : [ ]
+  }, {
+    "intentPath" : "/KnowledgeBase/FAQ.Banking/Root/How to update personal data?",
+    "replies" : [ ]
+  }, {
+    "intentPath" : "/KnowledgeBase/FAQ.Banking/Root/Personal information agreement",
+    "replies" : [ ]
+  }, {
+    "intentPath" : "/KnowledgeBase/FAQ.Banking/Root/Is my bank card ready?",
+    "replies" : [ ]
+  }, {
+    "intentPath" : "/KnowledgeBase/FAQ.Banking/Root/How to open a bank account?",
+    "replies" : [ ]
+  }, {
+    "intentPath" : "/KnowledgeBase/FAQ.Banking/Root/Why is my payment refused?",
+    "replies" : [ ]
+  }, {
+    "intentPath" : "/KnowledgeBase/FAQ.Banking/Root/How to get a card blocked?",
+    "replies" : [ ]
+  }, {
+    "intentPath" : "/KnowledgeBase/FAQ.Banking/Root/Was it a bank employee that called me?",
+    "replies" : [ ]
+  }, {
+    "intentPath" : "/KnowledgeBase/FAQ.Banking/Root/Why is my card blocked?",
+    "replies" : [ ]
+  }, {
+    "intentPath" : "/KnowledgeBase/FAQ.Banking/Root/Why is my balance negative?",
+    "replies" : [ ]
+  }, {
+    "intentPath" : "/KnowledgeBase/FAQ.Banking/Root/How to check balance?",
+    "replies" : [ ]
+  }, {
+    "intentPath" : "/KnowledgeBase/FAQ.Banking/Root/Where can I check my transactions history?",
+    "replies" : [ ]
+  }, {
+    "intentPath" : "/KnowledgeBase/FAQ.Banking/Root/Can I pay a loan early?",
+    "replies" : [ ]
+  }, {
+    "intentPath" : "/KnowledgeBase/FAQ.Banking/Root/How to activate a card?",
+    "replies" : [ ]
+  }, {
+    "intentPath" : "/KnowledgeBase/FAQ.Banking/Root/How to calculate the loan amount?",
+    "replies" : [ ]
+  }, {
+    "intentPath" : "/KnowledgeBase/FAQ.Banking/Root/How to get a card unblocked?",
+    "replies" : [ ]
+  }, {
+    "intentPath" : "/KnowledgeBase/FAQ.Banking/Root/How to apply for a loan?",
+    "replies" : [ ]
+  }, {
+    "intentPath" : "/KnowledgeBase/FAQ.Banking/Root/How to get a replacement card?",
+    "replies" : [ ]
+  }, {
+    "intentPath" : "/KnowledgeBase/FAQ.Banking/Root/How to pay a phone bill?",
+    "replies" : [ ]
+  }, {
+    "intentPath" : "/KnowledgeBase/FAQ.Banking/Root/How to reverse a transaction?",
+    "replies" : [ ]
+  }, {
+    "intentPath" : "/KnowledgeBase/FAQ.Banking/Root/What is cashback?",
+    "replies" : [ ]
+  }, {
+    "intentPath" : "/KnowledgeBase/FAQ.Banking/Root/What is code word?",
+    "replies" : [ ]
+  }, {
+    "intentPath" : "/KnowledgeBase/FAQ.Banking/Root/What to do if you forgot your PIN?",
+    "replies" : [ ]
+  }, {
+    "intentPath" : "/KnowledgeBase/FAQ.Banking/Root/When is cashback received?",
+    "replies" : [ ]
+  }, {
+    "intentPath" : "/KnowledgeBase/FAQ.Banking/Root/When will a transaction to another bank be confirmed?",
+    "replies" : [ ]
+  }, {
+    "intentPath" : "/KnowledgeBase/FAQ.Banking/Root/When will an inner transaction be confirmed?",
+    "replies" : [ ]
+  }, {
+    "intentPath" : "/KnowledgeBase/FAQ.Banking",
+    "replies" : [ ]
+  }, {
+    "intentPath" : "/KnowledgeBase/FAQ.Banking/Root/New intent",
+    "replies" : [ ]
+  } ]
 }
